@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Name That Indie Tune</title>
+</head>
+
+<body>
+
+    <div id="top-to-bottom" class="jumbotron">
+        <h1 class="display-3 text-center"> Name that Indie Band</h1>
+        <h3 class="text-center">hint: use the underscore for spaces...</h3>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="side-container">
+                    <div class="fishing-pole">
+                        <!-- <img class="img-hor img-responsive" src="http://clipartandscrap.com/wp-content/uploads/2017/06/Fishing-pole-clipart-black-and-white-free.png"> -->
+                        <img id="img_surfer" class="image img-hor img-responsive" src="assets/images/rock-guitar.svg">
+                        <img id="img_shark">
+                        <!-- <img id="img_blood" src="assets/images/blood.png"> -->
+                        <!-- <img id="surfer_gif" src="https://i.makeagif.com/media/9-19-2015/Dk1h-L.gif"> -->
+                    </div>
+                    <div class="text">
+                        <h2 id="instructions" class="text-center"> Name that Song</h2>
+                        <!-- <img src=""> -->
+                    </div>
+                    <!-- 					<div class="image">	
+						<img class="img-hor img-responsive" src="assets/images/surfer.svg">
+					</div> -->
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="content-container">
+                    <div class="button-container">
+                        <div class="btn-toolbar">
+                            <div id="button_div" class="btn-group btn-group-sm">
+                                <!-- javascript builds buttons here on load -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game-container">
+                        <div id="game">
+                            <h3 class="game-text" id="word">Word: </h3>
+                            <h3 class="game-text">Letters Guessed: </h3>
+                            <h3 class="game-text">Remaining Guesses: </h3>p>
+                            <h3 class="game-text">Wins: 0</h3>
+                        </div>
+                        <div id="restart" class="text-center">
+                            <button class="btn btn-default" id="restart">Restart</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <!-- <img src="https://i.makeagif.com/media/9-19-2015/Dk1h-L.gif" class="thumbnail image-responsive"> -->
+                    </div>
+                </div>
+            </div>
+            <script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
