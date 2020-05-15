@@ -1,4 +1,4 @@
-var words = ["the_smiths", "pixies", "pavement", "dinosaur_jr"]
+var words = ["the-smiths", "pixies", "pavement", "dinosaur-jr"]
     // "Belle & Sebastian",
     // "Yo La Tengo",
     // "Modest Mouse",
@@ -104,7 +104,7 @@ var blankLetterArrayStart = [];
 var guessesCorrect = 0;
 var guessesRemaining = 8;
 var userGuessRecord = [1];
-var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"]; //>>> this is to prevent the user from enterting a letter more than once
+var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "-"]; //>>> this is to prevent the user from enterting a letter more than once
 
 //function that creates buttons:
 function createButtons() {
